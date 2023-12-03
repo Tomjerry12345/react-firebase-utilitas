@@ -1,0 +1,23 @@
+{
+  "name": "react-firebase-utilitas",
+  "version": "1.0.0",
+  "type": "module",
+  "source": "lib/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femakin01/CapitalizeFirstLetterofaString.git"
+  },
+  "dependencies": {
+    "firebase": "^10.7.0"
+  }
+}
